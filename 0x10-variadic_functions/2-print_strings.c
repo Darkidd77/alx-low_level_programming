@@ -1,11 +1,11 @@
 #include "variadic_functions.h"
 /**
- * print_numbers - prints numbers followed by a new line
+ * print_strings - prints numbers followed by a new line
  * @n: number of parameter
  * @separator: separator between two numbers
  * Return: Always 0
  **/
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_stings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	va_list ap;

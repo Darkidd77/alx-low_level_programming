@@ -5,8 +5,7 @@
  * @format: specifies the necessary operations
  * Return: void
  */
-void print_all(const char * const format,
-		...)
+void print_all(const char * const format, ...)
 {
 	int i, flag;
 	char *str;
