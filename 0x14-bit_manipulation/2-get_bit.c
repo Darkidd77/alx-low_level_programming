@@ -3,6 +3,7 @@
 /**
  * get_bit - returns the value of a bit at an index in a dec number
  * @n: number
+ * @index: is the index, starting from 0 of the bit you want to set
  * Return: bit value
  */
 
