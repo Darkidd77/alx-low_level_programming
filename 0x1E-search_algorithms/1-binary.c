@@ -36,7 +36,7 @@ int binary_search(int *array, size_t size, int value)
 			return (x);
 
 		/* If middle element is greater than the value */
-		if (array[i] > value)
+		if (array[x] > value)
 			/* Update right boundary */
 			right = x - 1;
 		else
